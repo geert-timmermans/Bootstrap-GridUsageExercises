@@ -1,0 +1,27 @@
+.container1, .container3, .container4{
+    background-color: #cda5f3;
+}
+
+.container1 > p{
+    margin: 0;
+}
+
+.container5{
+    margin-bottom:20px;
+}
+
+.borderclass{
+    border: 1px solid black;
+}
+
+.nieuwe{
+    background-color: #cda5f3;
+}
+
+.nieuwe > p{
+    margin: 0;
+}
+
+.bgc{
+    background-color: #d8d8d8;
+}

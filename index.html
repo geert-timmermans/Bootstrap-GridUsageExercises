@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <h2>Oefening 1: positionering van de blokken</h2>
+    <div class="container borderclass container1 rounded text-center">
+        <p>12 kolommen</p>
+        <div class="row">
+            <div class="col-2 offset-1 rounded text-center borderclass">
+                <p>Hallo</p>
+            </div>
+            <div class="col-3 offset-2 rounded text-center borderclass">
+                <p>alles</p>
+            </div>
+            <div class="col-2 offset-2 rounded text-center borderclass">
+                <p>ok?</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Oefening 2: geneste elementen</h2>
+    <div class="container container2">
+        <div class="row">
+            <div class="col-4 h-25 nieuwe borderclass rounded text-center">
+                <p>nieuwe</p>
+            </div>
+            <div class="col-8 nieuwe borderclass rounded text-center">
+                <span class="font-weight-bold">oefening</span>
+                <div class="row">
+                    <div class="col-3 borderclass rounded text-center">Deze</div>
+                    <div class="col-6 borderclass rounded text-center">blokken zitten allemaal</div>
+                    <div class="col-3 borderclass rounded text-center">in</div>
+                    <div class="col-4 borderclass rounded text-center">dezelfde div</div>
+                    <div class="col-4 borderclass rounded text-center">waar ook <span class="font-weight-bold">"oefening"</span></div>
+                    <div class="col-4 borderclass rounded text-center">is geschreven</div>
+                    <div class="col-5 borderclass rounded text-center">hoe</div>
+                    <div class="col-2 borderclass rounded text-center">is</div>
+                    <div class="col-5 borderclass rounded text-center">is dit mogelijk?</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Oefening 3: verander de volgorde van de elementen</h2>
+    <div class="container container3">
+        <div class="row borderclass rounded text-center">
+            <div class="col-12">
+                12 Colonnes
+            </div>
+            <div class="col-2 offset-1 borderclass rounded text-center">Bloc 1 de 2</div>
+            <div class="col-2 offset-2 order-last borderclass rounded text-center">bloc 2 de 2</div>
+            <div class="col-2 offset-2 borderclass rounded text-center">bloc 3 de 2</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Oefening 4: een voorlaatste voor onderweg</h2>
+    <div class="container container4">
+        <div class="row">
+            <div class="col-6 borderclass rounded text-center">
+                6 kolommen
+                <div class="row">
+                    <div class="col-4 borderclass rounded text-center">4 kolommen</div>
+                    <div class="col-4 offset-4 borderclass rounded text-center">4 kolommen</div>
+                </div>
+            </div>
+            <div class="col-6 borderclass rounded text-center">
+                6 kolommen
+                <div class="row">
+                    <div class="col-4 borderclass rounded text-center">4 kolommen</div>
+                    <div class="col-8 borderclass rounded text-center">8 kolommen</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Oefening 5: maak een responsieve lay-out.</h2>
+    <div class="container container5">
+        <header class="row gutter">
+            <div class="col-4 col-md-3 border border-dark rounded bgc text-center">Logo</div>
+            <div class="col-8 col-md-9 border border-dark rounded bgc text-center">Title</div>
+            <div class="col-12 col-md-12 border border-dark rounded bgc text-center">Hero</div>
+        </header>
+        <section class="row gutter">
+            <div class="col-12 col-md-4 border border-dark rounded bgc text-center">Zone 1</div>
+            <div class="col-12 col-md-4 border border-dark rounded bgc text-center">Zone 2</div>
+            <div class="col-12 col-md-4 border border-dark rounded bgc text-center">Zone 3</div>
+            <div class="col-8 col-md-6 border border-dark rounded bgc text-center">Zone 5</div>
+            <div class="col-4 col-md-6 border border-dark rounded bgc text-center">Zone 6</div>
+        </section>
+        <footer class="row">
+            <div class="col-12 col-md-12 borderclass bgc text-center">
+                Footer
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
