@@ -1,4 +1,5 @@
 # Bootstrap-GridUsageExercises
 
 [Opdracht](https://github.com/geert-timmermans/Bootstrap-GridUsageExercises/blob/master/opdracht.md)  
-[Oefeningen](https://geert-timmermans.github.io/Bootstrap-GridUsageExercises/)
+[Oefeningen](https://geert-timmermans.github.io/Bootstrap-GridUsageExercises/)    
+date: 07-02-2019
